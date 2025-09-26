@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background: rgb(213, 231, 231);
+    font-family: Inter;
+    line-height: 24px;
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 100vh; /* ensure full viewport height */
+    background-color: #f7f7f7;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%239C92AC' fill-opacity='0.08'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");   
+    background-repeat: repeat;
+}
+.container {
+    max-width: 1400px;   
+    margin: 50px auto;       
+    /* padding: 0 20px;      */
+}
+
+h1 {
+    font-family: League Spartan;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+}
+h2 {
+    font-family: League Spartan;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.hero-section{
+    display: flex;
+    
+    margin-top: 90px;
+    
+}
+.hero-images {
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.hero-text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: #232326;
+    
+    align-items: center;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.hero-images-right img,  .hero-images-left img{
+    width: 80%;
+    transform: rotate(+3deg); 
+    margin: 30px 10px;
+    border-radius: 30%;  
+    object-fit: cover;
+}
+
+.hero-images-right img {
+    transform: rotate(-3deg); 
+}
+
+.description{
+    color: #464649;
+    margin: 30px 0;
+    width: 70%;
+}
+
+.signup-button{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #212124;
+    color: white;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+
+}
+
+
+.recommendation{
+    margin-left: 30px;
+    
+
+}
+
+.rec-tadbir-boxes{
+    display: flex;
+    gap: 2%;
+    margin: 50px 0px;
+    flex-wrap: wrap;
+    
+}
+.rec-tadbir {
+  flex: 1 0 21%; /* roughly 4 per row (100 / 4 ≈ 25, leave space for gap) */
+  box-sizing: border-box;
+  margin-bottom: 30px;
+
+}
+.rec-image{
+    width: 100%;
+    border-radius: 25px;
+    aspect-ratio: 3/2;
+}
+.rec-time {
+    font-size: small;
+    color:  #69696C;
+    font-weight: bold;
+}
+.rec-name{
+    font-size: 22px;
+    font-weight: 700;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    
+}
+.rec-organizer {
+    font-size: 18px;
+    color: #69696C;
+    
+}
+.rec-attendees{
+    font-weight: bold;
+    font-size: small;
+}
+
+
+/* ------ FOOTER ------ */
+
+.footer{
+    color: white;
+    background-color: black;
+    
+}
+.footer-header{
+    display: flex;
+    height: 120px;
+    align-items: center
+
+}
+.footer-header a img {
+    width: 100%;
+    height: 50px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.footer-logo{
+    margin-right: 30px;
+    border-radius: 10%;
+}
+.footer-logo img{
+    
+    border-radius: 10px;
+    
+}
+.footer-header-left{
+    display: flex;
+    align-items: center;
+    width: 45%;
+}
+.footer-header-right{
+    display: flex;
+    align-items: center;
+    width: 55%;
+
+}
+.footer-header-right h3 {
+    font-size: 24px;
+}
+.footer-header-right a {
+    color: #BEBEBF ;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+
+} 
+.footer-header-right a:hover{
+    color: #dddde1;
+
+}
+
+
+
+
