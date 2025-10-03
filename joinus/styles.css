@@ -465,8 +465,9 @@ h6 { font-size: 1rem; }
 
 .footer{
     color: white;
-    background-color: black;
     
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
 }
 .footer-header{
     display: flex;
